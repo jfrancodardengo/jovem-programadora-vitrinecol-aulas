@@ -1,0 +1,55 @@
+﻿codigo,titulo,dia,data,aula,etiquetas,prioridade,marco,depende_de,arquivo
+D1·A1,"D1·A1 – Montar o quadro do GitHub Projects, priorizar os 25 requisitos e formar a equipe",1,06/10/2026,1,Documentação; Configuração; Essencial,Essencial,,Nenhuma,issues/dia01-aula01.md
+D1·A2,"D1·A2 – Instalar Git e Live Server, criar o repositório vitrine-col e fazer o primeiro commit de cada integrante",1,06/10/2026,2,Configuração; Essencial,Essencial,,D1·A1,issues/dia01-aula02.md
+D1·A3,D1·A3 – Criar a primeira página HTML e abrir com o Live Server,1,06/10/2026,3,Front-end (HTML/CSS); Essencial,Essencial,,D1·A2,issues/dia01-aula03.md
+D2·A4,"D2·A4 – Desenhar os wireframes do Catálogo, da Loja, do Produto e do Login",2,07/10/2026,4,Front-end (HTML/CSS); Documentação; Importante,Importante,,D1·A3,issues/dia02-aula04.md
+D2·A5,"D2·A5 – Montar o protótipo navegável no Figma (Catálogo, Produto e Sacola)",2,07/10/2026,5,Front-end (HTML/CSS); Importante,Importante,,D2·A4,issues/dia02-aula05.md
+D2·A6,"D2·A6 – Definir nome, paleta, tipografia e guia de estilo (Marco 1)",2,07/10/2026,6,Front-end (HTML/CSS); Documentação; Importante,Importante,Marco 1 · protótipo navegável e guia de estilo,D2·A5,issues/dia02-aula06.md
+D3·A7,D3·A7 – Reescrever o index.html com HTML semântico (cabeçalho e rodapé comuns),3,08/10/2026,7,Front-end (HTML/CSS); Essencial,Essencial,,D2·A6,issues/dia03-aula07.md
+D3·A8,D3·A8 – Criar login.html e catalogo.html com listas e formulários rotulados,3,08/10/2026,8,Front-end (HTML/CSS); Essencial,Essencial,,D3·A7,issues/dia03-aula08.md
+D3·A9,"D3·A9 – Montar catalogo, loja, produto e login em HTML e ligar as páginas por links",3,08/10/2026,9,Front-end (HTML/CSS); Essencial,Essencial,,D3·A8,issues/dia03-aula09.md
+D4·A10,D4·A10 – Criar css/variaveis.css e css/base.css e ligar às cinco páginas,4,09/10/2026,10,Front-end (HTML/CSS); Essencial,Essencial,,D3·A9,issues/dia04-aula10.md
+D4·A11,"D4·A11 – Montar cabeçalho, menu, botões, campos e chips com Flexbox (componentes.css)",4,09/10/2026,11,Front-end (HTML/CSS); Essencial,Essencial,,D4·A10,issues/dia04-aula11.md
+D4·A12,D4·A12 – Criar o card de produto com Grid e estilizar o catálogo (paginas.css),4,09/10/2026,12,Front-end (HTML/CSS); Essencial,Essencial,,D4·A11,issues/dia04-aula12.md
+D5·A13,"D5·A13 – Tornar catálogo, loja, produto e login responsivos (mobile-first, 768 px e 1024 px)",5,13/10/2026,13,Front-end (HTML/CSS); Essencial,Essencial,,D4·A12,issues/dia05-aula13.md
+D5·A14,"D5·A14 – Fechar o base.css: foco visível, link ""Ir para o conteúdo"", contraste e variáveis",5,13/10/2026,14,Front-end (HTML/CSS); Essencial,Essencial,,D5·A13,issues/dia05-aula14.md
+D5·A15,"D5·A15 – Criar as cinco telas estáticas restantes, revisar a acessibilidade e marcar a versão 0.1 (Marco 2)",5,13/10/2026,15,Front-end (HTML/CSS); Testes; Essencial,Essencial,Marco 2 · front-end estático responsivo (versão 0.1),D5·A14,issues/dia05-aula15.md
+D6·A16,"D6·A16 – Ligar o primeiro script ao catálogo e treinar variáveis, tipos e condicionais no Console",6,14/10/2026,16,JavaScript; Essencial,Essencial,,D5·A15,issues/dia06-aula16.md
+D6·A17,D6·A17 – Representar produtos como array de objetos e escrever funções que os percorrem,6,14/10/2026,17,JavaScript; Essencial,Essencial,,D6·A16,issues/dia06-aula17.md
+D6·A18,"D6·A18 – Mexer na página com o DOM: criarElemento, avisos, cabeçalho em JavaScript e chips clicáveis",6,14/10/2026,18,JavaScript; Segurança; Essencial,Essencial,,D6·A17,issues/dia06-aula18.md
+D7·A19,"D7·A19 – Desenhar o catálogo pelo JavaScript: cards, preço em R$ e estado vazio",7,15/10/2026,19,JavaScript; Front-end (HTML/CSS); Essencial,Essencial,,D6·A18,issues/dia07-aula19.md
+D7·A20,"D7·A20 – Filtrar o catálogo por tipo, loja, tamanho e nome com filter, find e includes",7,15/10/2026,20,JavaScript; Essencial,Essencial,,D7·A19,issues/dia07-aula20.md
+D7·A21,"D7·A21 – Validar o formulário de produto no navegador (submit, preventDefault e erros ao lado do campo)",7,15/10/2026,21,JavaScript; Front-end (HTML/CSS); Essencial,Essencial,,D7·A20,issues/dia07-aula21.md
+D8·A22,"D8·A22 – Criar ErroApp, Produto e Loja com campos privados e regras dentro da classe",8,16/10/2026,22,Orientação a Objetos; JavaScript; Essencial,Essencial,,D7·A21,issues/dia08-aula22.md
+D8·A23,"D8·A23 – Criar Usuaria, Cliente e Lojista (herança e polimorfismo) e ligar Loja a Produto (agregação)",8,16/10/2026,23,Orientação a Objetos; Essencial,Essencial,,D8·A22,issues/dia08-aula23.md
+D8·A24,D8·A24 – Tratar erros com try/catch e ErroApp e organizar o código em módulos,8,16/10/2026,24,JavaScript; Orientação a Objetos; Essencial,Essencial,,D8·A23,issues/dia08-aula24.md
+D9·A25,D9·A25 – Criar o projeto vitrine-col no Supabase e ler o diagrama das 8 tabelas,9,19/10/2026,25,Supabase (Banco de Dados); Configuração; Essencial,Essencial,,D8·A24,issues/dia09-aula25.md
+D9·A26,"D9·A26 – Rodar o 01_schema.sql no Supabase: 8 tabelas, 4 gatilhos e 8 categorias",9,19/10/2026,26,Supabase (Banco de Dados); Essencial,Essencial,,D9·A25,issues/dia09-aula26.md
+D9·A27,"D9·A27 – Praticar SELECT, INSERT e JOIN, criar a lojista de teste e carregar a Loja Exemplo com 3 produtos",9,19/10/2026,27,Supabase (Banco de Dados); Essencial,Essencial,,D9·A26,issues/dia09-aula27.md
+D10·A28,"D10·A28 – Buscar os dados com async/await e fetch, com ""Carregando…"" e erro (arquivos JSON de teste)",10,20/10/2026,28,JavaScript; Essencial,Essencial,,D9·A27,issues/dia10-aula28.md
+D10·A29,D10·A29 – Conectar o site ao Supabase com supabase-js e listar os produtos do banco,10,20/10/2026,29,Supabase (Banco de Dados); JavaScript; Essencial,Essencial,,D10·A28,issues/dia10-aula29.md
+D10·A30,"D10·A30 – Passar os filtros para a consulta ao banco e criar o ""Carregar mais produtos"" (12 por página)",10,20/10/2026,30,Supabase (Banco de Dados); JavaScript; Essencial,Essencial,,D10·A29,issues/dia10-aula30.md
+D11·A31,D11·A31 – Cadastrar a loja e os produtos (INSERT) como lojista de teste,11,21/10/2026,31,Supabase (Banco de Dados); JavaScript; Essencial,Essencial,,D10·A30,issues/dia11-aula31.md
+D11·A32,"D11·A32 – Editar, desativar, ativar e excluir produtos (UPDATE e DELETE)",11,21/10/2026,32,Supabase (Banco de Dados); JavaScript; Essencial,Essencial,,D11·A31,issues/dia11-aula32.md
+D11·A33,"D11·A33 – Enviar até 5 fotos por produto ao Supabase Storage, com capa, reordenação e versão 0.5 (Marco 3)",11,21/10/2026,33,Supabase (Banco de Dados); Segurança; Importante,Importante,Marco 3 · CRUD com imagens (versão 0.5),D11·A32,issues/dia11-aula33.md
+D12·A34,D12·A34 – Montar as páginas de produto (galeria) e de loja (endereço e mapa) usando o id na URL,12,22/10/2026,34,JavaScript; Supabase (Banco de Dados); Essencial,Essencial,,D11·A33,issues/dia12-aula34.md
+D12·A35,"D12·A35 – Criar a sacola com localStorage, agrupada por loja, com subtotais, total e contador",12,22/10/2026,35,JavaScript; Fluxo de Pedido; Essencial,Essencial,,D12·A34,issues/dia12-aula35.md
+D12·A36,"D12·A36 – Finalizar a sacola em um pedido por loja, com o mesmo grupo_id, e botão de WhatsApp por loja",12,22/10/2026,36,Fluxo de Pedido; JavaScript; Essencial,Essencial,,D12·A35,issues/dia12-aula36.md
+D13·A37,"D13·A37 – Criar cadastro, login e logout com Supabase Auth",13,23/10/2026,37,Segurança; Supabase (Banco de Dados); Essencial,Essencial,,D12·A36,issues/dia13-aula37.md
+D13·A38,"D13·A38 – Fazer a recuperação de senha por e-mail (""Esqueci minha senha"")",13,23/10/2026,38,Segurança; Supabase (Banco de Dados); Importante,Importante,,D13·A37,issues/dia13-aula38.md
+D13·A39,"D13·A39 – Proteger as telas por perfil, ligar a RLS e gravar os pedidos com a função criar_pedidos",13,23/10/2026,39,Segurança; Fluxo de Pedido; Essencial,Essencial,,D13·A38,issues/dia13-aula39.md
+D14·A40,"D14·A40 – Construir a página inicial de vitrine com hero, carrossel, tipos de roupa, destaques e lojas",14,26/10/2026,40,Front-end (HTML/CSS); JavaScript; Importante,Importante,,D13·A39,issues/dia14-aula40.md
+D14·A41,D14·A41 – Depurar com as DevTools e executar os 25 casos de teste (CT-01 a CT-25),14,26/10/2026,41,Testes; Documentação; Essencial,Essencial,,D14·A40,issues/dia14-aula41.md
+D14·A42,"D14·A42 – Corrigir os defeitos graves com branch, pull request revisado e merge",14,26/10/2026,42,Testes; Configuração; Essencial,Essencial,,D14·A41,issues/dia14-aula42.md
+D15·A43,D15·A43 – Publicar o site no GitHub Pages e liberar o endereço publicado no Supabase,15,27/10/2026,43,Publicação; Segurança; Essencial,Essencial,,D14·A42,issues/dia15-aula43.md
+D15·A44,D15·A44 – Escrever o README completo com diagrama ER e instruções de uso,15,27/10/2026,44,Documentação; Importante,Importante,,D15·A43,issues/dia15-aula44.md
+D15·A45,"D15·A45 – Revisar o MVP, demonstrar o fluxo completo e marcar a versão 0.9 (Marco 4)",15,27/10/2026,45,Testes; Publicação; Essencial,Essencial,Marco 4 · MVP publicado (versão 0.9),D15·A44,issues/dia15-aula45.md
+D26·A76,D26·A76 – Criar a tela Pedidos recebidos e o fluxo de status da lojista,26,12/11/2026,76,Fluxo de Pedido; Segurança; Importante,Importante,,D15·A45,issues/dia26-aula76.md
+D26·A77,D26·A77 – Criar Meus pedidos e o aviso de novidades para a cliente,26,12/11/2026,77,Fluxo de Pedido; JavaScript; Importante,Importante,,D26·A76,issues/dia26-aula77.md
+D26·A78,D26·A78 – Criar Minha conta com exclusão da própria conta (EXCLUIR),26,12/11/2026,78,Segurança; Supabase (Banco de Dados); Importante,Importante,,D26·A77,issues/dia26-aula78.md
+D27·A79,D27·A79 – Executar os 25 casos de teste no site publicado e escrever o roteiro de usabilidade,27,13/11/2026,79,Testes; Documentação; Essencial,Essencial,,D26·A78,issues/dia27-aula79.md
+D27·A80,D27·A80 – Aplicar o roteiro de usabilidade com pelo menos 5 usuárias externas e registrar cada problema,27,13/11/2026,80,Testes; Importante,Importante,,D27·A79,issues/dia27-aula80.md
+D27·A81,"D27·A81 – Consolidar o relatório de testes e priorizar as correções em crítico, importante e desejável",27,13/11/2026,81,Testes; Documentação; Essencial,Essencial,,D27·A80,issues/dia27-aula81.md
+D28·A82,D28·A82 – Corrigir os problemas críticos em branches e refazer os casos de teste,28,16/11/2026,82,Testes; JavaScript; Essencial,Essencial,,D27·A81,issues/dia28-aula82.md
+D28·A83,"D28·A83 – Revisar a segurança (RLS, chaves, acessos indevidos) e publicar a versão final",28,16/11/2026,83,Segurança; Publicação; Essencial,Essencial,,D28·A82,issues/dia28-aula83.md
+D28·A84,"D28·A84 – Fechar a documentação, marcar a versão 1.0 e congelar o código (Marco 8)",28,16/11/2026,84,Documentação; Publicação; Essencial,Essencial,Marco 8 · versão 1.0 publicada e congelada,D28·A83,issues/dia28-aula84.md
