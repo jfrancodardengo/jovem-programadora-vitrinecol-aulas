@@ -39,8 +39,12 @@ Em 60 minutos você vai guardar as **fotos dos produtos** no **Supabase Storage*
 create policy "dev: envio de fotos" on storage.objects for insert to anon
 with check (bucket_id = 'produtos');
 ```
+```sql
+create policy "dev: apagar fotos" on storage.objects for delete to anon
+using (bucket_id = 'produtos');
+```
 
-Essa política só permite **enviar**. Ela é **perigosa** (deixa qualquer pessoa enviar arquivos): **vamos apagá-la no Dia 13**. Anote isso no Kanban.
+Essas políticas permitem **enviar** e **deletar**. Ela são **perigosa** (deixa qualquer pessoa enviar e deletar arquivos): **vamos apagá-las no Dia 13**. Anote isso no Kanban.
 
 ### Passo 2: o serviço de Storage e a redução da foto
 
